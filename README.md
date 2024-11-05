@@ -21,5 +21,14 @@ To compare model performance across the three prediction windows (1, 5, and 10 y
 
 Finally, to assess the length of the input data prior to truncation or padding see: token_length_gatortron.py 
 
+|            | Text-based                 |                         | Code-based                 |                         |
+|------------|----------------------------|-------------------------|----------------------------|-------------------------|
+|            | Micro-F1                   | Micro-AUPRC             | Micro-F1                   | Micro-AUPRC             |
+| **1 year** | 0.449  [0.438, 0.462]      | 0.437  [0.431, 0.460]   | 0.426 [0.416, 0.437]       | 0.397 [0.384, 0.411]    |
+| **5 year** | 0.496  [0.485, 0.506] ***  | 0.508 [0.495, 0.522] ***| 0.433 [0.423, 0.444]       | 0.425 [0.413, 0.439]    |
+| **10 year**| 0.489 [0.478, 0.500]       | 0.499 [0.486, 0.514] ***| 0.474 [0.463, 0.485]       | 0.465 [0.453, 0.478]    |
+
+*p < 0.05*, *p < 0.01**, *p < 0.001***
+
 
 
