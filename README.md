@@ -7,7 +7,7 @@ Healthcare data is often stored in different places using different clinical cod
 ## Prepare your data 
 This paper compared two input types, text versus medical codes. For the text-based approach, we order the events (diagnosis, medication or procedure) for each patient chronologically and then concatenate the textual descriptors into a sentence. For the medical code approach, we do the same but concat the medical codes into a sequence. See image below for an example.
 
-![Input format for text and code approaches](sentences.png)
+![Input format for text and code approaches](images/sentences.png)
 *Input format for text and code approaches*
 
 ## Model 
