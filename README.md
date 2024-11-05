@@ -11,7 +11,7 @@ This paper compared two input types, text versus medical codes. For the text-bas
 *Input format for text and code approaches*
 
 ## Model 
-This paper predominately uses [gatortron-base] (https://huggingface.co/UFNLP/gatortron-base) but we also compare the performance across [BERT-base](https://huggingface.co/google-bert/bert-base-uncased) and [Biomedical longformer] (https://huggingface.co/kiddothe2b/biomedical-longformer-base).
+This paper predominately uses [gatortron-base](https://huggingface.co/UFNLP/gatortron-base) but we also compare the performance across [BERT-base](https://huggingface.co/google-bert/bert-base-uncased) and [Biomedical longformer](https://huggingface.co/kiddothe2b/biomedical-longformer-base).
 Model stored in: gatortron_bceloss.py
 
 ## Additional steps
