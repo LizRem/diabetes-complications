@@ -11,3 +11,15 @@ This paper compared two input types, text versus medical codes. For the text-bas
 *Input format for text and code approaches*
 
 ## Model 
+This paper predominately uses [gatortron-base] (https://huggingface.co/UFNLP/gatortron-base) but we also compare the performance across [BERT-base](https://huggingface.co/google-bert/bert-base-uncased) and [Biomedical longformer] (https://huggingface.co/kiddothe2b/biomedical-longformer-base).
+Model stored in: gatortron_bceloss.py
+
+## Additional steps
+To assess variation in model performance and calculate the 95% confidence interval (CI) we use a bootstrap resampling method, calculated over 1000 iterations. Code stored in: bootstrap.py
+
+To compare model performance across the three prediction windows (1, 5, and 10 years) and between code-based and text-based models we apply a Bonferroni correction to assess which model performs the best. Code stored in: bonferroni_correction.py
+
+Finally, to assess the length of the input data prior to truncation or padding see: token_length_gatortron.py 
+
+
+
