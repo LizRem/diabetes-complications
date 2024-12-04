@@ -1,5 +1,6 @@
 # ML4H-diabetes-complications
 This repository contains the code for the workshop paper *Exploring Long-Term Prediction of Type 2 Diabetes Microvascular Complications* (Machine Learning for Healthcare 2024).
+[![arXiv](https://img.shields.io/badge/arXiv-2412.01331-b31b1b.svg)](https://arxiv.org/abs/2412.01331)
 
 ## The challenge
 Healthcare data is often stored in different places using different clinical code ontologies, such as the International Classification of Diseases (ICD) or Systematized Nomenclature of Medicine-Clinical Terms (SNOMED-CT). In order to analyse the data this requires mapping between these coding systems, which can result in a loss of data. In this paper we explore the effectiveness of code-agnostic models which mediates the need for mapping.
