@@ -1,5 +1,6 @@
 # ML4H-diabetes-complications
 This repository contains the code for the workshop paper *Exploring Long-Term Prediction of Type 2 Diabetes Microvascular Complications* (Machine Learning for Healthcare 2024).
+
 [![arXiv](https://img.shields.io/badge/arXiv-2412.01331-b31b1b.svg)](https://arxiv.org/abs/2412.01331)
 
 ## The challenge
